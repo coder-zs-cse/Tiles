@@ -24,14 +24,11 @@ int tilingways(int n)
 }
 int main()
 {
-    int N;
-    cin >> N;
-    while (N--)
-    {
+   
         int n;
         cin >> n;
         cout << tilingways(n)<<endl;
-    }
+    
 
     return 0;
 }
